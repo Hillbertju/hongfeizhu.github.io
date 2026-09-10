@@ -1,22 +1,18 @@
 ---
 permalink: /
-title: "Hongfei Zhu · 朱弘飞"
+title: "About me"
 author_profile: true
 redirect_from:
   - /about/
 ---
 
-My research interests lie in **deep tissue imaging**, **super-resolution microscopy**, and **computational imaging**. I develop optical imaging methods and computational reconstruction approaches to reveal three-dimensional structures beyond the diffraction limit.
+Hi! I am **Hongfei Zhu (朱弘飞)**, a postdoctoral researcher in the **Department of Mechanical and Automation Engineering (MAE)** at **The Chinese University of Hong Kong (CUHK)**, working with **Prof. Shih-Chi Chen**.
 
-I received my PhD in Biomedical Engineering from **The Chinese University of Hong Kong**, advised by **Prof. Renjie Zhou**. Previously, I received my BS in Optoelectronic Information Science and Engineering from **Zhejiang University**, where I was advised by **Prof. Cuifang Kuang** and **Prof. Qing Yang**.
+My research combines **optical hardware and computational methods to advance super-resolution imaging**. I develop imaging systems and reconstruction algorithms to resolve finer structures, capture faster dynamics and richer information, and improve reconstruction fidelity.
 
-## Research
+I received my PhD in Biomedical Engineering from **The Chinese University of Hong Kong** in March 2026, advised by **Prof. Renjie Zhou**. Previously, I received my BS in Optoelectronic Information Science and Engineering from **Zhejiang University** in June 2021, where I was advised by **Prof. Cuifang Kuang** and **Prof. Qing Yang**.
 
-My work spans structured illumination microscopy, three-dimensional single-molecule localization, and point spread function modeling. I am interested in bringing together optical system design and computational methods for more accurate biological imaging.
-
-## Publications
-
-Browse my [publications]({{ '/publications/' | relative_url }}) for journal articles, preprints, and conference papers, or visit [Google Scholar](https://scholar.google.com/citations?user=l5fLIjEAAAAJ&hl=en&sortby=pubdate).
+Explore my [research]({{ '/research/' | relative_url }}) and [publications]({{ '/publications/' | relative_url }}). Please feel free to [email me](mailto:hfzhu9927@gmail.com) to discuss research or potential collaborations!
 
 ## Education
 
@@ -25,5 +21,3 @@ PhD in Biomedical Engineering · August 2021 – March 2026
 
 **Zhejiang University**  
 BS in Optoelectronic Information Science and Engineering · August 2017 – June 2021
-
-[Education and advisors]({{ '/education/' | relative_url }})
