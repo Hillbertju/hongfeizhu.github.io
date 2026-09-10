@@ -8,20 +8,19 @@ author_profile: true
 <p>I combine illumination engineering, interferometric detection, and computational inference to push microscopy in three complementary directions: finer spatial detail, faster acquisition and richer information, and more faithful reconstruction.</p>
 <nav class="pub-nav" aria-label="Research themes"><a href="#resolution">Higher resolution</a><a href="#speed">Speed &amp; information</a><a href="#fidelity">Reconstruction fidelity</a></nav>
 <section class="research-section" id="resolution">
-<p class="research-kicker">01 / Resolve finer structures</p>
 <h2>Higher resolution and localization precision</h2>
 <p>By designing how fluorescence is excited and detected, I seek to extract more spatial information from each measurement. My work spans scanning-free interferometric morphology imaging, three-beam 4Pi-SIM, and modulation-enhanced single-molecule localization.</p>
-<figure class="research-figure"><a href="https://arxiv.org/abs/2502.14243"><img src="{{ '/images/smile-figure.png' | relative_url }}" alt="SMILE optical layout, illumination modulation, and simulated localization precision curves" loading="lazy"></a><figcaption>SMILE: combining illumination modulation with three-dimensional PSF modeling. Figure 1 from the SMILE preprint; precision curves shown here are simulations.</figcaption></figure>
+<figure class="research-figure"><div class="ppt-pair ppt-first"><video controls playsinline muted loop preload="metadata" poster="{{ '/images/research-image1.png' | relative_url }}" aria-label="Scanning-free interferometric super-resolution imaging"><source src="{{ '/images/research-media1.mp4' | relative_url }}" type="video/mp4">Your browser does not support video. <a href="{{ '/images/research-media1.mp4' | relative_url }}">Download video</a></video><div class="ppt-image" ><img src="{{ '/images/research-image2.png' | relative_url }}" alt="Super-resolution imaging results" loading="lazy"></div></div></figure>
 <ul class="research-papers">
 <li><strong>Scanning-free 4Pi super-resolution morphology imaging.</strong> Fluorescence interference and structured illumination enable approximately <strong>20 nm axial precision</strong> and <strong>100 nm lateral resolution</strong> without axial scanning. <a href="{{ '/publications/' | relative_url }}#fisim">Advanced Photonics (2023)</a></li>
 <li><strong>Three-beam 4Pi-SIM.</strong> Image interference structured illumination and spatial-spectral optimization improve axial resolution to approximately <strong>150 nm</strong>. <a href="{{ '/publications/' | relative_url }}#i2sim">Laser &amp; Photonics Reviews (2025)</a></li>
-<li><strong>SMILE.</strong> Structured illumination strengthens 3D single-molecule localization, with <strong>sub-5 nm localization precision</strong> in the evaluated 4Pi-SMILE simulations. <a href="{{ '/publications/' | relative_url }}#smile">SMILE · Preprint (2025)</a></li>
+<li><strong>SMILE &amp; isoFLUX.</strong> Structured illumination strengthens 3D single-molecule localization, with <strong>sub-5 nm localization precision</strong> in real experiments. <a href="{{ '/publications/' | relative_url }}#smile">SMILE · Preprint (2025)</a> · <a href="{{ '/publications/' | relative_url }}#isoflux">isoFLUX · Chinese Optics Letters (2025)</a></li>
 </ul>
 </section>
 <section class="research-section" id="speed">
-<p class="research-kicker">02 / Capture dynamics and richer information</p>
 <h2>Faster imaging and more information dimensions</h2>
 <p>Spatial detail is only part of the picture. I also work on reducing the measurements needed for super-resolution and extending the information recovered from fluorescence, from rapid structural dynamics to molecular dipole orientation.</p>
+<figure class="research-figure"><div class="ppt-pair"><div class="ppt-image" ><img src="{{ '/images/research-image3.png' | relative_url }}" alt="Fast super-resolution imaging results" loading="lazy"></div><div class="ppt-image" ><img src="{{ '/images/research-image4.png' | relative_url }}" alt="Polarization-resolved multidimensional imaging results" loading="lazy"></div></div></figure>
 <div class="research-highlights"><div><strong>&gt;100 fps</strong><span>Single-frame super-resolution</span></div><div><strong>~100 nm</strong><span>Lateral resolution</span></div><div><strong>6D</strong><span>Spatial and polarization information</span></div></div>
 <ul class="research-papers">
 <li><strong>Deep learning for single-frame SIM.</strong> A single-frame reconstruction approach supports approximately <strong>100 nm super-resolution at more than 100 frames per second</strong>, helping capture fast live-cell dynamics. <a href="{{ '/publications/' | relative_url }}#sfsim">APL Photonics (2024)</a></li>
@@ -29,10 +28,9 @@ author_profile: true
 </ul>
 </section>
 <section class="research-section" id="fidelity">
-<p class="research-kicker">03 / Reconstruct with confidence</p>
 <h2>Higher reconstruction fidelity</h2>
 <p>Accurate images require both a realistic forward model and an efficient inverse solution. I develop methods that account for optical aberrations, accelerate iterative reconstruction, suppress noise artifacts, and extract localization information close to its statistical limit.</p>
-<figure class="research-figure"><a href="https://doi.org/10.1364/OE.451190"><img src="{{ '/images/fista-figure.png' | relative_url }}" alt="Comparison of wide-field, Wiener-SIM, NGD-SIM and TV-FISTA-SIM reconstructions with lateral and axial profiles" loading="lazy"></a><figcaption>Reconstruction fidelity under noise: simulated bead images and profiles comparing 3D-SIM algorithms. Figure 3 from Cai, Zhu et al., Optics Express (2022).</figcaption></figure>
+<figure class="research-figure"><div class="ppt-pair"><div class="ppt-image ppt-cropped"><img src="{{ '/images/research-image5.png' | relative_url }}" alt="Reconstruction fidelity and aberration correction" loading="lazy"></div><div class="ppt-image" ><img src="{{ '/images/research-image6.png' | relative_url }}" alt="High-fidelity reconstruction results" loading="lazy"></div></div></figure>
 <ul class="research-papers">
 <li><strong>In situ aberration estimation and correction.</strong> Vectorial PSF retrieval estimates optical aberrations directly from single-molecule data to improve 3D localization. <a href="{{ '/publications/' | relative_url }}#vispr">Photonics Research (2024)</a></li>
 <li><strong>Faster spatial-domain 3D-SIM reconstruction.</strong> Nonlinear gradient descent accelerates iterative reconstruction. <a href="{{ '/publications/' | relative_url }}#ngdsim">Optics Express (2021)</a></li>
